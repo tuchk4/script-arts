@@ -6,8 +6,8 @@ Another one npm package :) Encode any text files into images and decode them bac
 
 ## If you ask "Why"?
 
-"Code like no one's watching." (https://twitter.com/noopkat)[@noopkat]
-From (http://jsconfbp.com/)[#jsconf Budapest] (http://jsconfbp.com/speakers/suz-hinton.html)["Formulartic Spectrum"].
+"Code like no one's watching." [https://twitter.com/noopkat](@noopkat)
+From [http://jsconfbp.com/](#jsconf Budapest) [http://jsconfbp.com/speakers/suz-hinton.html]("Formulartic Spectrum").
 
 ## Just imagine
 
@@ -63,11 +63,10 @@ script-arts decode --help
 
 Existing themes:
 
-- (https://github.com/tuchk4/script-arts/blob/master/src/themes/char-code-theme.js)[char-code-theme]
-
-- (https://github.com/tuchk4/script-arts/blob/master/src/themes/js-theme.js)[js-theme]
-- (https://github.com/tuchk4/script-arts/blob/master/src/themes/md-theme.js)[md-theme]
-- (https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons.js)[spaces-and-semicolons]
+- [https://github.com/tuchk4/script-arts/blob/master/src/themes/char-code-theme.js](char-code-theme)
+- [https://github.com/tuchk4/script-arts/blob/master/src/themes/js-theme.js](js-theme)
+- [https://github.com/tuchk4/script-arts/blob/master/src/themes/md-theme.js](md-theme)
+- [https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons.js](spaces-and-semicolons)
 
 ```js
 import chartCodeTheme from 'script-arts/themes/char-code-theme';
@@ -109,9 +108,9 @@ encode('path/to/source-file', 'path/to/output-image', {
 
 Sames as custom themes. Default iterators example:
 
-- (https://github.com/tuchk4/script-arts/blob/master/src/iterators/linear-iterator.js)[Linear iterator]
-- (https://github.com/tuchk4/script-arts/blob/master/src/iterators/lines-iterator.js)[Lines iterator]
-- (https://github.com/tuchk4/script-arts/blob/master/src/iterators/index.js)[How to Add iterator]
+- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/linear-iterator.js](Linear iterator)
+- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/lines-iterator.js](Lines iterator)
+- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/index.js](How to Add iterator)
 
 ## Contribute
 
@@ -123,20 +122,20 @@ Use `npm run test-dev` - to start tests with watchers.
 
 ## Encode examples: parts of lodash source with different options
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/ccbe9a9b5ce349bbb81dc09993acf65a.png" width="500">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/ccbe9a9b5ce349bbb81dc09993acf65a.png" width="300">
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/6dc174171ff54c5785d97f87d5467dd6.png" width="500">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/6dc174171ff54c5785d97f87d5467dd6.png" width="300">
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/91c13624df1240349a60428ca380cd94.png" width="500">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/91c13624df1240349a60428ca380cd94.png" width="300">
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/89c5b31f90d14ed1aae3a457489792ac.png" width="500">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/89c5b31f90d14ed1aae3a457489792ac.png" width="300">
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/ecb30acba8484cbbb0269d6806b648a2.png" width="500">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/ecb30acba8484cbbb0269d6806b648a2.png" width="300">
 
-# Encode examples of this README file
+## Encode examples of this README file
 
-<img alt="README encode example" src="http://image.prntscr.com/image/5bdb76a324e54f22b99cd3865aec8fe7.png" width="500">
+<img alt="README encode example" src="http://image.prntscr.com/image/5bdb76a324e54f22b99cd3865aec8fe7.png" width="300">
 
-<img alt="README encode example" src="http://image.prntscr.com/image/24e7b4189d2b4d9e804ee903def3792c.png" width="500">
+<img alt="README encode example" src="http://image.prntscr.com/image/24e7b4189d2b4d9e804ee903def3792c.png" width="300">
 
-<img alt="README encode example" src="http://image.prntscr.com/image/283709d672aa40609a85819447aa4b99.png" width="500">
+<img alt="README encode example" src="http://image.prntscr.com/image/283709d672aa40609a85819447aa4b99.png" width="300">
