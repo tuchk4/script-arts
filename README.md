@@ -6,8 +6,8 @@ Another one npm package :) Encode any text files into images and decode them bac
 
 ## If you ask "Why"?
 
-"Code like no one's watching." [https://twitter.com/noopkat](@noopkat)
-From [http://jsconfbp.com/](#jsconf Budapest) [http://jsconfbp.com/speakers/suz-hinton.html]("Formulartic Spectrum").
+"Code like no one's watching." [@noopkat](https://twitter.com/noopkat)
+From [#jsconf Budapest](http://jsconfbp.com/) ["Formulartic Spectrum"](http://jsconfbp.com/speakers/suz-hinton.html).
 
 ## Just imagine
 
@@ -63,10 +63,10 @@ script-arts decode --help
 
 Existing themes:
 
-- [https://github.com/tuchk4/script-arts/blob/master/src/themes/char-code-theme.js](char-code-theme)
-- [https://github.com/tuchk4/script-arts/blob/master/src/themes/js-theme.js](js-theme)
-- [https://github.com/tuchk4/script-arts/blob/master/src/themes/md-theme.js](md-theme)
-- [https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons.js](spaces-and-semicolons)
+- [char-code-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/char-code-theme.js)
+- [js-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/js-theme.js)
+- [md-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/md-theme.js)
+- [spaces-and-semicolons](https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons.js)
 
 ```js
 import chartCodeTheme from 'script-arts/themes/char-code-theme';
@@ -108,9 +108,9 @@ encode('path/to/source-file', 'path/to/output-image', {
 
 Sames as custom themes. Default iterators example:
 
-- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/linear-iterator.js](Linear iterator)
-- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/lines-iterator.js](Lines iterator)
-- [https://github.com/tuchk4/script-arts/blob/master/src/iterators/index.js](How to Add iterator)
+- [Linear iterator](https://github.com/tuchk4/script-arts/blob/master/src/iterators/linear-iterator.js)
+- [Lines iterator](https://github.com/tuchk4/script-arts/blob/master/src/iterators/lines-iterator.js)
+- [How to Add iterator](https://github.com/tuchk4/script-arts/blob/master/src/iterators/index.js)
 
 ## Contribute
 
