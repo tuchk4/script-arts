@@ -30,8 +30,8 @@ script-arts decode --help
 * Theme - is a symbol encode (symbol to rgb) / decode (rgb to symbol) rule.
   ```js
   {
-   encode: function(symbol),
-   decode: function(rgb)
+    encode: function(symbol),
+    decode: function(rgb)
   }
   ```
 
@@ -45,19 +45,19 @@ script-arts decode --help
 
 ## Iterators
 
-* linear *(default)* `-i linear`. Iterate by symbols
+* **linear** *(default)* `script-arts encode source output -i linear`. Iterate by symbols
 
-* lines `-i lines`. Iterate by lines
+* **lines** `script-arts encode source output -i lines`. Iterate by lines
 
 ## Themes
 
-* char code *(default)* - `-t char-code`. Translate symbol code to hex. `-d <number>` code offset. If delta was used for encode - same value should be used for decode.
+* **char code** *(default)* `script-arts encode source output -t char-code`. Translate symbol code to hex. `-d <number>` code offset. If delta was used for encode - same value should be used for decode.
 
-* spaces and semicolons - `-t spaces-and-semicolons`. Highlite spaces and semicolons. Other symbols will be encoded with char-code theme.
+* **spaces and semicolons** `script-arts encode source output -t spaces-and-semicolons`. Highlite spaces and semicolons. Other symbols will be encoded with char-code theme.
 
-* js - `-t js`. Highlite js keywords.
+* **js** `script-arts encode source output  -t js`. Highlite js keywords.
 
-* md - `-t md`. Highlite md keywords.
+* **md** `script-arts encode source output  -t md`. Highlite md keywords.
 
 ## Custom theme
 
