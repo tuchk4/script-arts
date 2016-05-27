@@ -66,7 +66,7 @@ Existing themes:
 - [char-code-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/char-code-theme.js)
 - [js-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/js-theme.js)
 - [md-theme](https://github.com/tuchk4/script-arts/blob/master/src/themes/md-theme.js)
-- [spaces-and-semicolons](https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons.js)
+- [spaces-and-semicolons](https://github.com/tuchk4/script-arts/blob/master/src/themes/spaces-and-semicolons-theme.js)
 
 ```js
 import chartCodeTheme from 'script-arts/themes/char-code-theme';
