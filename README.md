@@ -1,6 +1,5 @@
 # Script arts
 ---
-[![Build Status](https://travis-ci.org/tuchk4/script-arts.svg?branch=master)](https://travis-ci.org/tuchk4/script-arts)
 
 Another one npm package :) Encode any text files into images and decode them back.
 
@@ -122,20 +121,17 @@ Use `npm run test-dev` - to start tests with watchers.
 
 ## Encode examples: parts of lodash source with different options
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/ccbe9a9b5ce349bbb81dc09993acf65a.png" width="300">
+<img alt="lodash encode example" src="http://image.prntscr.com/image/ccbe9a9b5ce349bbb81dc09993acf65a.png" width="250" height="250"> <img alt="lodash encode example" src="http://image.prntscr.com/image/6dc174171ff54c5785d97f87d5467dd6.png" width="250" height="250"> <img alt="lodash encode example" src="http://image.prntscr.com/image/91c13624df1240349a60428ca380cd94.png" width="250" height="250">
 
-<img alt="lodash encode example" src="http://image.prntscr.com/image/6dc174171ff54c5785d97f87d5467dd6.png" width="300">
-
-<img alt="lodash encode example" src="http://image.prntscr.com/image/91c13624df1240349a60428ca380cd94.png" width="300">
-
-<img alt="lodash encode example" src="http://image.prntscr.com/image/89c5b31f90d14ed1aae3a457489792ac.png" width="300">
-
-<img alt="lodash encode example" src="http://image.prntscr.com/image/ecb30acba8484cbbb0269d6806b648a2.png" width="300">
+- [Additional exmaple#1](http://image.prntscr.com/image/89c5b31f90d14ed1aae3a457489792ac.png)
+- [Additional exmaple#2](http://image.prntscr.com/image/ecb30acba8484cbbb0269d6806b648a2.png)
 
 ## Encode examples of this README file
 
-<img alt="README encode example" src="http://image.prntscr.com/image/5bdb76a324e54f22b99cd3865aec8fe7.png" width="300">
+<img alt="README encode example" src="http://image.prntscr.com/image/5bdb76a324e54f22b99cd3865aec8fe7.png" width="250" height="250"> <img alt="README encode example" src="http://image.prntscr.com/image/24e7b4189d2b4d9e804ee903def3792c.png" width="250" height="250"> <img alt="README encode example" src="http://image.prntscr.com/image/283709d672aa40609a85819447aa4b99.png" width="250" height="250">
 
-<img alt="README encode example" src="http://image.prntscr.com/image/24e7b4189d2b4d9e804ee903def3792c.png" width="300">
+## Tests
 
-<img alt="README encode example" src="http://image.prntscr.com/image/283709d672aa40609a85819447aa4b99.png" width="300">
+Tests are ok. But travis fails. And I dont care :)
+
+<img alt="Tests output" src="http://image.prntscr.com/image/1599c4ac36a04e3988092b3acc229c5b.png" />
