@@ -3,6 +3,7 @@
 /iterators
 /themes
 /utils
+/coverage
 /cmd.js
 /config-marks.js
 /decode.js
