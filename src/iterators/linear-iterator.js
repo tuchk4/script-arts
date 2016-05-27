@@ -1,17 +1,19 @@
 import { create } from '../lwip-image';
-
+import hexToRgb from '../utils/hex-to-rgb';
 import createSymbolToPixel from '../utils/symbol-to-pixel';
 import createPixelToSymbol from '../utils/pixel-to-symbol';
+
+const DEFAULT_BG = '#000000';
 
 export const iterateSource = (source, encode, options = {}) => {
   const size = source.length;
   const side = Math.ceil(Math.sqrt(size));
-
+  const background = hexToRgb(options.background || DEFAULT_BG);
   /**
    * Create image object with needed width and height
    * In this iterator - width == height
    */
-  return create(side, side, 'black').then(image => {
+  return create(side, side, background).then(image => {
     /**
      * Create function that encode symbol into image
      * That is needed beacause not each symbol will be converted

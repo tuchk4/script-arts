@@ -63,7 +63,12 @@ export default (image, decode, options = {}) => {
       colorsMatch += hex;
     } else {
       symbol = convert(colorsMatch || hex);
-      colorsMatch = '';
+
+      if (colorsMatch) {
+        colorsMatch = hex;
+      } else {
+        colorsMatch = '';
+      }
     }
 
     if (isLast) {

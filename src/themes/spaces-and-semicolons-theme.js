@@ -7,6 +7,7 @@ export default (options = {}) => {
   const charCodeTheme = charCodeThemeSetup(options);
 
   return {
+    options,
     encode: symbol => {
       switch (symbol) {
         case ' ':

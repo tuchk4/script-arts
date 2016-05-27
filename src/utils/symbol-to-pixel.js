@@ -50,7 +50,6 @@ export default (image, encode, options = {}) => {
 
   return (symbol, x, y, isLast) => {
     const currentMatch = match + symbol;
-
     if (symbolSet.has(currentMatch)) {
       match += symbol;
       coords.push({ x, y });

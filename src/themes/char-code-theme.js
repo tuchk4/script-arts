@@ -7,8 +7,8 @@ const DEFAULT_EMPTY_COLOR = '#000';
 export default (options) => {
   const delta = options.delta || DEFAULT_DELTA;
   const emptyColor = options.emptyColor || DEFAULT_EMPTY_COLOR;
-
   return {
+    options,
     encode: symbol => {
       let color = emptyColor;
 

@@ -1,7 +1,10 @@
 import { create } from '../lwip-image';
 import { EOL } from 'os';
+import hexToRgb from '../utils/hex-to-rgb';
 import createSymbolToPixel from '../utils/symbol-to-pixel';
 import createPixelToSymbol from '../utils/pixel-to-symbol';
+
+const DEFAULT_BG = '#000000';
 
 export const iterateSource = (source, encode, options = {}) => {
   const eolRegExp = new RegExp(EOL);
@@ -16,13 +19,14 @@ export const iterateSource = (source, encode, options = {}) => {
 
   const width = max + 1;
   const height = lines.length;
+  const background = hexToRgb(options.background || DEFAULT_BG);
 
   /**
    * Create image object with needed width and height
    * width == max line length
    * height == lines number
    */
-  return create(width, height, 'black').then(image => {
+  return create(width, height, background).then(image => {
     /**
      * Create function that encode symbol into image
      * That is needed beacause not each symbol will be converted
