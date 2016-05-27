@@ -1,0 +1,39 @@
+{
+  "name": "script-arts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "script-arts": "./bin/script-arts"
+  },
+  "jest": {
+    "automock": false
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest --coverage",
+    "test-dev": "./node_modules/.bin/jest --watch",
+    "prepublish": "npm run clear & ./node_modules/.bin/babel -d ./ ./src",
+    "dev": "npm run clear & ./node_modules/.bin/babel -d ./ ./src --watch",
+    "clear": "ls ./src | xargs rm -rf"
+  },
+  "keywords": [],
+  "author": "tuchk4 <valeriy.sorokobatko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lwip": "0.0.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-eslint": "^6.0.4",
+    "babel-jest": "^11.0.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1",
+    "jest-cli": "^11.0.2"
+  }
+}
