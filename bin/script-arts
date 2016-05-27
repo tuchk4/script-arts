@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-
-"use strict";
+'use strict';
 
 var path = require('path');
 var fs = require('fs');
 
 var cli = path.join(path.dirname(fs.realpathSync(__filename)), '..', 'cmd');
+
 require(cli)();
