@@ -7,7 +7,7 @@ import { mark } from './config-marks';
 const DEFAULT_ITERATOR = 'linear';
 const DEFAULT_THEME = 'char-code';
 const DEFAULT_EXTENSION = '.png';
-const DEFAULT_DELTA = 0;
+const DEFAULT_DELTA = 0; // test
 
 const AVAILABLE_EXTENSIONS = ['.png', '.gif', 'jpg'];
 
