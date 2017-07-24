@@ -1,6 +1,8 @@
 # Script arts
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tuchk4/script-arts.svg)](https://greenkeeper.io/)
+
 Another one npm package :) Encode any text files into images and decode them back.
 
 ## If you ask "Why"?
